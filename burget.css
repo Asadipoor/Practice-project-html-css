@@ -1,0 +1,763 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive !important;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.contener{
+    width: 80%;
+    margin: 0% auto;
+}
+.btn{
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 30px;
+    transition-duration: 0.3s;
+    background: #a5141a;
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue'!important;
+    font-weight: 500;
+}
+.btn:hover{
+    background-color: #ffb91a;
+}
+
+
+/* start head......... */
+
+.back-head{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/main.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 92vh;
+}
+
+.head-item p{
+    padding-top: 1.5rem;
+    color: #ffb91a;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive !important;
+}
+.head-item h1{
+    color: #fff;
+    font-size: 78px;
+    margin: 25px 0px;
+
+}
+
+/* start menu ........*/
+
+.menu-items{
+    padding: 70px 0px;
+    display: flex;
+    align-items: center;
+
+}
+.menu-item img {
+    width: 80px;
+}
+.menu-item{
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid transparent;
+}
+.menu-item:hover{
+    border-color: #ffb91a;
+    
+}
+.menu-img{
+    min-height: 80px;
+}
+.menu-item p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+/* start food....... */
+
+.back-food{
+    background-image: url('img/special-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.spac-food{
+    display: flex;
+    justify-content: space-between;
+}
+.food-left{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/special-01.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    width:46%;
+    color: #fff;
+    padding: 90px 0px 0px 50px;
+    margin-top: 115px;
+    margin-bottom: 115px;
+    
+}
+.food-left h3 {
+    font-size: 45px;
+    letter-spacing: 1px;
+    line-height: 2.75rem;
+    font-weight: 550;
+    padding-right: 20rem;
+}
+.food-left p{
+    font-size: 13px;
+    padding: 0.5rem 10rem 0.5rem 0px;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-family: Epilogue,sans-serif;
+    font-weight: 700;
+
+}
+.food-left span{
+    font-size: 37px;
+    color: #ffb91a;
+    display: block;
+    padding-bottom: 1.5rem;
+}
+
+.food-right{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.food-right-top{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/special-02.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    color: #fff;
+    padding: 40px 0px 40px 43px;
+    margin-bottom: 1.5rem;
+    margin-top: 115px;
+}
+
+.food-right-down{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/special-03.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    color: #fff;
+    padding: 40px 0px 40px 43px;
+    margin-bottom: 115px;
+}
+.food-right-top h3 ,.food-right-down h3{
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 2.75rem;
+    font-weight: 550;
+    padding-right: 20rem;
+}
+.food-right-top p ,.food-right-down p{
+    font-size: 13px;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-family: Epilogue,sans-serif;
+    font-weight: 700;
+    padding: 0.5rem 18rem 0.5rem 0px;
+}
+.food-right-top span ,.food-right-down span{
+    font-size: 30px;
+    color: #ffb91a;
+    display: block;
+
+}
+
+
+/* start hamber....... */
+
+.spac-hamber{
+    display: flex;
+}
+.hamber-left{
+    width: 50%;
+    padding: 115px 0px;
+}
+.hamber-right{
+    width: 50%;
+    padding:  180px 0px 0px 250px;
+}
+.hamber-right h5{
+    font-family: 'Pacifico', cursive !important;
+    font-size: 27px;
+    color: #a5141a;
+    line-height: 27px;
+    font-weight: 400;
+
+}
+.hamber-right h3{
+    color: #0e0e0e;
+    font-size: 48px;
+    padding: 40px 0px;
+    line-height: 50px;
+    font-weight: 400;
+}
+.hamber-right p {
+    font-size: 17px;
+    padding-bottom: 60px;
+    color: #6b6b6b;
+    line-height: 1.5rem;
+    font-family: Epilogue,sans-serif;
+    font-weight: 400;
+    
+}
+
+.hamber-img{
+    width: 500px;
+}
+
+
+/* start dinner........ */
+
+.dinner-back{
+    background-image:url('img/delivery.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dinner-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dinner-txt p{
+    color: #a5141a;
+    font-size: 27px;
+    line-height: 27px;
+    font-family: Pacifico;
+    
+}
+.dinner-txt h2{
+    color: #fff;
+    font-size: 110px;
+    line-height: 110px;
+    letter-spacing: 1px;
+    padding: 3rem 0px;
+    text-align: center;
+}
+
+
+/* start number................. */
+
+.number-back{
+    background-color: #ffb91a;
+}
+.number-items{
+    color: #fff;
+    display: flex;
+}
+.number-item{
+    width: 25%;
+    text-align: center;
+    padding: 1rem 0px;
+
+}
+.number-item h3{
+    font-size: 50px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    padding-bottom: 0.3rem;
+    font-weight: 990;
+    font-family: 'Pacifico', cursive !important;
+}
+.number-item p{
+    font-size: 18px;
+    line-height: 18px;
+    font-family: Epilogue,sans-serif;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+/* start price............. */
+
+.price-spc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 115px 0px;
+}
+.price-left{
+    background-color: #a5141a;
+    color: #fff;
+    border-radius: 1rem;
+    width: 45%;
+    padding: 3.5rem  2.5rem;
+}
+.price-left h3{
+    font-size: 50px;
+    line-height: 85px;
+    padding-bottom: 1rem;
+    font-weight: 900;
+}
+.price-left h5{
+    font-size: 29px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    padding-bottom: 1.2rem;
+    display: inline;
+    font-weight: 400;
+}
+.price-left p{
+    font-size: 17px;
+    padding-bottom: 1.75rem;
+    line-height: 18px;
+    font-family: Epilogue,sans-serif;
+    font-weight: 400;
+    
+}
+.price-left span{
+    font-size: 27px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    padding-bottom: 1.2rem;
+    font-weight: 400;
+}
+
+.price-right{
+    width: 50%;
+}
+.price-img img{
+   max-width: 100%;
+   padding-left: 2rem;
+}
+
+/* start today......... */
+
+.bac-today{
+    background-color: #f8f8f8;
+}
+.spc-today{
+    padding: 115px 0px;
+    
+}
+.top-today{
+    text-align: center;
+}
+.top-today h5{
+    color: #a5141a;
+    font-size: 27px;
+    line-height: 35px;
+    font-family: Pacifico;
+    letter-spacing: 1px;
+}
+.top-today h3{
+    color: #383838;;
+    font-size: 50px;
+    line-height: 60px;
+    padding: 3.5rem 0px;
+    letter-spacing: 1.5px;
+
+}
+.top-today p{
+    color: #6b6b6b;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    font-family: Epilogue,sans-serif;
+
+
+}
+.down-today{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 0px;
+}
+.down-card-today{
+    background-color: #fff;
+    border-radius: 0.8rem;
+    width: 46%;
+    margin: 1rem;
+    padding: 1rem 0px;
+    border: 1px solid transparent;
+    box-shadow: rgb(149 157 165 / 20%) 0 8px 24px;
+}
+.down-card-today:hover{
+    border-color: #ffb91a;
+}
+.down-items-today{
+    display: flex;
+}
+.down-item-today-img{
+    width: 46%;
+    height: auto;
+}
+.down-item-today-img img{
+   max-width: 80%;
+}
+.img-today{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.down-item-today-text{
+    width: 50%;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.down-item-today-text h6{
+    color: #383838;;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.down-item-today-text span{
+    display: block;
+    color: #a5141a;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding: 1rem 0px;
+}
+.down-item-today-text p{
+    color: #6b6b6b;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    font-family: Epilogue,sans-serif;
+    padding-bottom: 1.5rem;
+    padding-right: 2rem;
+}
+.btn-today{
+    width: 100px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    transition-duration: 0.3s;
+    background: #a5141a;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue';
+}
+.btn-today:hover{
+    background-color: #ffb91a;
+}
+
+/* start Place............. */
+
+.bac-Place{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/fav-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 92vh;
+}
+.place{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 115px 0px;
+}
+.place p{
+    color: #a5141a;
+    font-size: 27px;
+    line-height: 27px;
+    font-family: Pacifico;
+    padding: 1.5rem;
+}
+.place h3{
+    color: #fff;
+    font-size: 110px;
+    line-height: 110px;
+    letter-spacing: 1px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+/* start Feedback.......... */
+
+.bac-Feedback{
+    background-image: url('img/special-bg.jpg');
+    padding: 115px 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.top-feedback{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.top-feedback h5{
+    color: #a5141a;
+    font-size: 27px;
+    line-height: 35px;
+    font-family: Pacifico;
+    letter-spacing: 1px;
+}
+.top-feedback h3{
+    color: #383838;;
+    font-size: 50px;
+    line-height: 60px;
+    padding: 2rem 0px;
+    letter-spacing: 1.5px;
+
+}
+.top-feedback p{
+    color: #6b6b6b;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: Epilogue,sans-serif;
+}
+.down-feedback{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.down-card-feedback{
+    width: 48%;
+    background-color: #fff;
+    border-radius: 0.8rem;
+    margin: 1rem 0.5rem;
+    padding: 1rem 0px 2rem 0px;
+    box-shadow: rgb(149 157 165 / 20%) 0 8px 24px;
+
+}
+.down-card-text-feedback p {
+    color: #6b6b6b;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.5px;
+    padding: 1rem 2rem;
+    font-family: Epilogue,sans-serif;
+
+}
+.down-card-imgs-feedback{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.down-card-img-feedback {
+    width: 15%;
+}
+.down-card-img-feedback img{
+    border-radius: 100%;
+    width: 100%;
+}
+.down-card-imgs-feedback p{
+    color: #a5141a;
+    font-size: 15.5px;
+    margin-left: 20px;
+    margin-top: 1.5rem;
+    /* به دلیل تراز نبودن عکس و متن از مارجین اسفاده شده این کار درست است؟؟؟؟؟؟ */
+    font-weight: 700;
+    line-height: 27px;
+    font-family: Epilogue,sans-serif;
+}
+
+/* start Free........ */
+
+.spc-Free{
+    padding: 140px 0px;
+    display: flex;
+}
+.left-Free{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-Free h5{
+    color: #a5141a;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: Pacifico;
+}
+.left-Free h3{
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 3.4rem;
+    letter-spacing: 1px;
+    padding: 2.5rem 5rem 2.5rem 0px;
+}
+.left-Free p{
+    color: #6b6b6b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    font-family: Epilogue,sans-serif;
+}
+.right-Free{
+    width: 48%;
+    position: relative;
+    animation: motor 3s infinite;
+}
+.right-Free img{
+    max-width: 100%;
+}
+@keyframes motor {
+
+    from{left:0px}
+    to{left:12rem}
+}
+
+/* start book.......... */
+
+.bac-book{
+    background-color: #a5141a;
+}
+.info-book{
+    padding: 2.5rem 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-book p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.btn-book{
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 30px;
+    transition-duration: 0.3s;
+    background-color: #ffb91a;
+    font-size: 19px;
+    letter-spacing: 0.9px;
+    font-family: 'Bebas Neue';
+}
+.btn-book:hover{
+    background: #fff;
+    color: #0e0e0e;
+
+} 
+
+/* start footer................. */
+
+.spac-footer{
+    border-bottom: 1px solid #24222233;
+}
+.items-footer{
+    display: flex;
+    padding: 100px 0px 64px 0px;
+
+}
+.item-footer{
+    width: 30%;
+}
+.item-footer h5{
+    color: rgb(19, 22, 34);
+    padding-bottom: 1.5rem;
+    font-size: 20px;
+    width: 200;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.item-footer p{
+    color: #6b6b6b;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: Epilogue,sans-serif;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
+}
+.item-footer h6{
+    color: #0e0e0e;
+    font-family: Epilogue,sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    display: inline;
+    padding-right: 3rem;
+    padding-left: 4px;
+    color: rgb(36, 41, 60);
+
+}
+.item-footer-span{
+    padding-right: 3rem;
+
+}
+.icon-contact{
+    font-size: 13px;
+    color: rgb(36, 41, 60);
+    
+}
+.item-footer a{
+    text-decoration: none;
+    color: #6b6b6b;
+}
+.days-footer{
+    list-style: square;
+    color: #6b6b6b;
+    font-size: 15px;
+    line-height: 27px;
+    font-family: Epilogue,sans-serif;
+    padding: 4px 0px;
+}
+.help-footer{
+    list-style: none;
+    font-size: 15px;
+    line-height: 27px;
+    font-family: Epilogue,sans-serif;
+    padding: 4px 0;
+}
+.help-footer a:hover{
+    color: #a5141a;
+}
+.access-footer li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    font-family: Epilogue,sans-serif;
+    padding: 3px 0;
+}
+.access-footer a:hover{
+    color: #a5141a;
+}
+.down-lift-footer{
+    display: flex;
+}
+.down-lift-footer li{
+    list-style: none;
+    margin-right:1rem;
+    border-radius: 50%;
+    background-color: #fdfdfd;
+    border: 1px solid #e7e7e7;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-down-lift-footer{
+    color: #a5141a;
+}
+.down-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.down-footer p{
+    color: #6b6b6b;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: Epilogue,sans-serif;
+}
