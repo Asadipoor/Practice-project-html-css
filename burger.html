@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Burgera-Fast Food and Restaurant</title>
-    <link rel="stylesheet" href="burget.css">
+    <link rel="stylesheet" href="./css/burget.css">
     <script src="https://kit.fontawesome.com/a19bccba81.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -17,21 +20,83 @@
 
    <header>
         <section>
-            <div class="back-head">
-                <div class="contener">
-                     <div class="head-item">
-                        <p>Are you hungry?</p>
+            <div class="bg-head">
+                <div class="container">
+
+                    <!-- start navbar -->
+
+                    <nav class="navbar navbar-expand-lg bg-red rounded-30">
+                        <div class="container-fluid text-center ">
+                            <div class="ps-xl-5 pt-3">
+                                <ul class="list-unstyled d-flex">
+                                    <li class="nav-li"><a href=""><i class="fa-brands fa-facebook fo-20  text-white "></i></a></li>
+                                    <li class="nav-li"><a href=""><i class="fa-brands fa-twitter fo-20  text-white mx-2"></i></a></li>
+                                    <li class="nav-li"><a href=""><i class="fa-brands fa-telegram fo-20  text-white "></i></a></li>
+                                </ul> 
+                            </div>
+                          <button class="navbar-toggler text-white border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav text-uppercase fo-20">
+                              <li class="nav-item nav-li offset-lg-1">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item nav-li">
+                                <a class="nav-link text-white" href="#">REVIEWS</a>
+                              </li>
+                              <li class="nav-item nav-li">
+                                <a class="nav-link text-white" href="#">PRODUCT</a>
+                              </li>
+                              <li class="offset-lg-3">
+                                  <a class="navbar-brand text-yellow fo-30" href="#">Burgera</a>
+                              </li>
+                              <li class="nav-item nav-li offset-lg-3">
+                                <a class="nav-link text-white" href="#">shop</a>
+                              </li>
+                              <li class="nav-item dropdown nav-li">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    PAGES 
+                                </a>
+                                <ul class="dropdown-menu bg-yellow fo-20">
+                                  <li><a class="dropdown-item nav-dropdown-item-hover" href="#">ouR MENU</a></li>
+                                  <li><a class="dropdown-item nav-dropdown-item-hover" href="#">ABOUT US</a></li>
+                                  <li><a class="dropdown-item nav-dropdown-item-hover" href="#">SERVICES</a></li>
+                                  <li><a class="dropdown-item nav-dropdown-item-hover" href="#">FAQ</a></li>
+                                  <li><a class="dropdown-item nav-dropdown-item-hover" href="#"> CART</a></li> 
+                                </ul>
+                              </li>
+                              <li class="nav-item nav-li">
+                                <a class="nav-link text-white" href="#">CONTACT</a>
+                              </li>
+                              <li class="offset-lg-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart3 text-white mt-lg-2" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                </svg>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                    </nav>
+
+                    <!-- stat text header -->
+
+                    <div>
+                        <div class="text-yellow fo-italic py-5 fw-bold ">
+                            <p>Are you hungry?</p>
+                        </div>
+                        <div class=" text-white">
+                            <h1>
+                                GAME NIGHT?<br>
+                                WORKING LATE?<br>
+                                ORDER NOW! 
+                            </h1>
+                        </div>
+                        <div>
+                            <button class="btn bg-red text-white my-5 fo-20 px-4"> GO TO MENU</button>
+                        </div>
                     </div>
-                    <div class="head-item">
-                        <h1>
-                            GAME NIGHT?<br>
-                            WORKING LATE?<br>
-                            ORDER NOW! 
-                        </h1>
-                    </div>
-                    <div class="head-item">
-                        <button class="btn"> GO TO MENU</button>
-                    </div>
+
                 </div>
             </div>
         </section>
@@ -44,141 +109,198 @@
         <!-- start menu -->
 
         <section>
-            <div class="contener">
-                <div class="menu-items">
-                    <div class="menu-item">
-                        <div class="menu-img">
-                             <img src="img/category-01.png" alt="Burger">
+
+            <div class="container">
+
+                <div class="d-flex justify-content-between pt-pb flex-wrap">
+
+                    <div class="col-12 col-md-6 col-lg-3 menu-border rounded  d-flex flex-column align-items-center justify-content-center">
+                        <div class="w-25 mb-4 mt-3">
+                             <img src="./img/category-01.png" alt="Burger" class="w-100">
                         </div>
-                        <p>Burger</p>
+                        <p class="fo-20">Burger</p>
                      </div>
-                    <div class="menu-item">
-                        <div class="menu-img">
-                            <img src="img/category-02.png" alt="Sub Sandwiches">
+
+                    <div class="col-12 col-md-6 col-lg-3 menu-border rounded  d-flex flex-column align-items-center   justify-content-center ">
+                        <div class="w-25 mb-4 mt-3">
+                            <img src="./img/category-02.png" alt="Sub Sandwiches" class="w-100">
                         </div>
-                        <p>Sub Sandwiches</p>
+                        <p class="fo-20">Sub Sandwiches</p>
                     </div>
-                    <div class="menu-item">
-                        <div class="menu-img">
-                            <img src="img/category-03.png" alt="Beef Roll">
+
+                    <div class="col-12 col-md-6 col-lg-3 menu-border rounded  d-flex flex-column align-items-center  justify-content-center ">
+                        <div class="w-25 mb-4 mt-3">
+                            <img src="./img/category-03.png" alt="Beef Roll" class="w-100">
                         </div>
-                        <p>Beef Roll</p>
+                        <p class="fo-20">Beef Roll</p>
                     </div>
-                    <div class="menu-item">
-                        <div class="menu-img">
-                            <img src="img/category-04.png" alt="Wedges">
+
+                    <div class="col-12 col-md-6 col-lg-3 menu-border rounded  d-flex flex-column align-items-center  justify-content-center ">
+                        <div class="w-25 mb-4 mt-3">
+                            <img src="./img/category-04.png" alt="Wedges" class="w-100">
                         </div>
-                         <p>Wedges</p>
+                         <p class="fo-20">Wedges</p>
                     </div>
+
                 </div>
+
             </div>
+
         </section>
 
         <!-- start food -->
 
-        <section class="back-food">
-            <div class="contener">
-                <div class="spac-food">
-                    <div class="food-left">
-                        <h3>
+        <section class="bg-food pt-pb">
+
+            <div class="container">
+                
+                <div class="d-lg-flex justify-content-between column-gap-lg-4">
+
+                    <!-- start img left -->
+
+                    <div class="bg-food-left rounded-3 col-lg-6 mb-lg-5 mt-5 text-white d-flex flex-column justify-content-center">
+
+                        <h3 class=" ps-5 fo-40 col-7 col-sm-5 col-md-4 col-lg-5 pb-3">
                             Meet, Eat &
                             Enjoy the
                             true Taste 
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur
+                        <p class=" ps-5 fo-thin text-uppercase fo-13 col-9 col-md-7 col-lg-10">
+                            Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit, sed do eiusmod tempor.
                         </p>
-                        <span>$9.45</span>
-                        <button class="btn">ORDER NOW</button>
+                        <span class="d-block text-yellow fo-30 ps-5">$9.45</span>
+
+                        <button class="btn bg-red text-white my-5 fo-20  ms-5 col-3">ORDER NOW</button>
+
                     </div>
-                    <div class="food-right">
-                        <div class="food-right-top">
-                            <h3>Discovery
+
+                    <!-- start img right -->
+
+                    <div class="d-flex flex-column col-lg-6 row-gap-4 text-white">
+
+                        <!-- start img right top -->
+
+                        <div class="bg-food-right-top rounded-3 d-flex flex-column justify-content-center p-5 mt-4 mt-lg-5">
+
+                            <h3 class="fo-40 pb-3 col-6 col-sm-4 col-md-3 col-lg-5 col-xl-4">
+                                Discovery
                                 New Menu
                             </h3>
-                            <p>
+                            <p class="fo-thin text-uppercase fo-13 col-8 col-sm-6 col-md-4 col-lg-6 col-xl-4">
                                 Lorem ipsum dolor
                                 adipiscing elit
                             </p>
-                            <span>$44.99</span>
+                            
+
+                            <span class="d-block text-yellow fo-30">$44.99</span>
+
                         </div>
-                        <div class="food-right-down">
-                            <h3>
+
+                        <!-- start img right down-->
+
+                        <div class="bg-food-right-down rounded-3 mb-5 p-5 d-flex flex-column justify-content-center">
+
+                            <h3 class="fo-40 pb-3 col-5 col-sm-4 col-md-3 col-lg-4 col-xl-3">
                                 Buy one
                                 get one 
                             </h3>
-                            <p>
+        
+                            <p class="fo-thin fo-13 text-uppercase col-8 col-sm-6 col-md-4 col-lg-6 col-xl-4">
                                 Lorem ipsum dolor
                                 adipiscing elit
                             </p>
-                            <span>$14.99</span>
+                            <span class="d-block text-yellow fo-30">$14.99</span>
     
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
         </section>
 
         <!-- start hamber-->
 
         <section>
-            <div class="contener">
-                <div class="spac-hamber">
-                    <div class="hamber-left">
-                        <div class="hamber-img">
-                            <img src="img/about-bg.png" alt="big hamber">
-                        </div>
+
+            <div class="container pt-pb">
+
+                <div class="d-flex flex-wrap align-items-center">
+
+                    <div class="col-12 col-md-6 col-lg-7 pb-5 pb-lg-0 pe-5">
+
+                        <img src="./img/about-bg.png" alt="big hamber" class="w-100">
+
                     </div>
-                    <div class="hamber-right">
-                        <h5>Concerning Our Food</h5>
-                        <h3>
-                            With American Love,
-                            from Los Angeles
-                        </h3>
-                        <p>
+
+                    <div class="col-11 col-sm-8 col-md-6 col-lg-5 ps-5 pt-5 pt-lg-0">
+
+                        <h5 class="fo-italic text-red fo-30 pb-5">Concerning Our Food</h5>
+
+                        <div class="pe-xl-5 ">
+                            <h3 class="fo-40 pe-lg-5 pb-3">
+
+                                With American Love,
+                                from Los Angeles
+
+                            </h3>
+                        </div>
+                        <p class=" fo-thin text-black-50 fo-15 col-lg-8 pb-3 text-lowercase fw-light">
+
                             Lorem ipsum dolor sit amet, consectetur 
                             adipiscing elit. Ut elit tellus, luctus nec 
                             ullamcorper mattis, pulvinar dapibus. 
+
                         </p>
-                        <button class="btn">ORDER NOW</button>
+
+                        <button class="btn bg-red text-white fo-20 px-4">ORDER NOW</button>
+
                     </div>
+
                 </div>
+
             </div>
+
         </section>
 
         <!-- start dinner -->
 
-        <section class="dinner-back">
-            <div class="dinner-txt">
-                <p>We Deliver Your Masterpiece!</p>
-                <h2>
-                    Quick & Nutritious<br>
-                    Dinner
-                </h2>
-                <button class="btn">FULL MENU</button>
-            </div>
+        <section class="bg-dinner d-flex flex-column justify-content-center align-items-center text-center">
+
+            <p class="text-red fo-italic fo-sm fo-30">
+                We Deliver Your Masterpiece!
+            </p>
+            <h2 class="text-white fo-110 mb-5 fo-sm-head">
+                Quick & Nutritious<br>
+                Dinner
+            </h2>
+            <button class="btn bg-red text-white fo-20 px-sm-5 py-sm-2">FULL MENU</button>
+
         </section>
 
         <!-- start number -->
 
-        <section class="number-back">
-            <div class="contener">
-                <div class="number-items">
-                    <div class="number-item">
-                        <h3>230</h3>
-                        <p>Ingredients</p>
+        <section class="bg-yellow text-white">
+            <div class="container">
+                <div class="d-flex flex-wrap py-3 text-center">
+                    <div class="col-12 col-md-3">
+                        <h3 class="fo-italic fo-50">230</h3>
+                        <p class="fo-thin fo-20 fw-light">Ingredients</p>
                     </div>
-                    <div class="number-item">
-                        <h3>500+</h3>
-                        <p>Clients Daily</p>
+                    <div class="col-12 col-md-3">
+                        <h3 class="fo-italic fo-50">500+</h3>
+                        <p class="fo-thin fo-20 fw-light">Clients Daily</p>
                     </div>
-                    <div class="number-item">
-                        <h3>12+</h3>
-                        <p>Years of Experience</p>
+                    <div class="col-12 col-md-3">
+                        <h3 class="fo-italic fo-50">12+</h3>
+                        <p class="fo-thin fo-20 fw-light">Years of Experience</p>
                     </div>
-                    <div class="number-item">
-                        <h3>100%</h3>
-                        <p>Fresh & Tasty</p>
+                    <div class="col-12 col-md-3">
+                        <h3 class="fo-italic fo-50">100%</h3>
+                        <p class="fo-thin fo-20 fw-light">Fresh & Tasty</p>
                     </div>
 
                 </div>
@@ -188,28 +310,33 @@
         <!-- start price -->
 
         <section>
-            <div class="contener">
-                <div class="price-spc">
-                    <div class="price-left">
-                        <h3>Our Main Dishes</h3>
-                        <h5>Breakfast Mood …..</h5>
-                        <span> $29.00</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <h5> PROSPECT ….. ​</h5>
-                        <span>$9.45</span>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <h5>Burger Time ….. </h5>
-                        <span>$12.45</span>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <h5> Grilled Chicken ….. </h5>
-                        <span>$19.45</span>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p></p>
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center pt-pb">
+                    <div class="price bg-red text-white rounded-4 col-12 col-lg-6 p-5 ">
+
+                        <h3 class="fo-50 py-4">Our Main Dishes</h3>
+
+                        <h5 class="fo-30 d-inline">Breakfast Mood …..</h5>
+                        <span class="fo-30"> $29.00</span>
+                        <p class="fo-thin fo-15 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                        <h5 class="fo-30 d-inline"> PROSPECT …..​</h5>
+                        <span class="fo-30">$9.45</span>
+                        <p class="fo-thin fo-15 mb-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                        <h5 class="fo-30 d-inline">Burger Time ….. </h5>
+                        <span class="fo-30">$12.45</span>
+                        <p class="fo-thin fo-15 mb-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                        <h5 class="fo-30 d-inline"> Grilled Chicken ….. </h5>
+                        <span class="fo-30">$19.45</span>
+                        <p class="fo-thin fo-15 mb-4 pb-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p></p>
     
                     </div>
-                    <div class="price-right">
-                        <div class="price-img">
-                            <img src="img/dish-bg.png" alt="French fries" >
-                        </div>
+                    <div class="col-12 col-lg-6 my-5">
+
+                        <img src="./img/dish-bg.png" alt="French fries" class="w-100">
+
                     </div>
     
                 </div>
@@ -218,104 +345,148 @@
 
         <!-- start today -->
 
-        <section class="bac-today">
-            <div class="contener" >
-                <div class="spc-today">
-                    <div class="top-today">
-                       <h5>Tasty & crunchy</h5> 
-                       <h3>Recommended today</h3>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="down-today">
-                        <div class="down-card-today">
-                            <div class="down-items-today">
-                                <div class="down-item-today-img">
-                                    <div class="img-today">
-                                        <img src="img/today-01.png" alt="Spaghetti Bolognese">
-                                    </div>
+        <section class="bg-today pt-pb">
+
+            <div class="container" >
+
+                <div class="text-center">
+                    <h5 class="fo-italic text-red fo-30">Tasty & crunchy</h5> 
+                   <h3 class="my-5 fo-50">Recommended today</h3>
+                   <p class="fo-thin fo-15 text-black-50 fw-light mb-5 pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <!-- today cards -->
+
+                <div class="d-flex justify-content-between flex-wrap ">
+
+                    <div class="col-12 col-lg-6">
+
+                        <div class=" bg-white rounded-4 shadow today my-2 me-md-2 py-2" >
+                            <div class="d-flex flex-wrap align-items-center justify-content-center my-2">
+
+                                <div class="col-12 col-md-6">
+                                    <img src="./img/today-01.png" alt="Spaghetti Bolognese" class="w-100">
                                 </div>
-                                <div class="down-item-today-text">
-                                    <h6>Spaghetti Bolognese</h6>
-                                    <span>$35.99</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <button class="btn-today">order now </button>      
+    
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start ps-3 pe-md-5 mt-4 ">
+    
+                                    <h6 >Spaghetti Bolognese</h6>
+                                    <span class="my-3">$35.99</span>
+                                    <p class="mb-4 text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <button class="btn bg-red text-white fo-20 py-1 px-3 mb-5 mb-md-0">order now </button> 
+    
+                                </div>
+    
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-lg-6">
+
+                        <div class="bg-white rounded-4 shadow today my-2 ms-md-2 py-2">
+                            <div class="d-flex flex-wrap align-items-center justify-content-center my-2">
+                
+                                <div class="col-12 col-md-6">
+                                    <img src="./img/today-02.png" alt="Stuffed Pizza" class="w-100">
+                                </div>
+                                
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start ps-3 pe-md-5 mt-4">
+
+                                    <h6>Stuffed Pizza</h6>
+                                    <span class="my-3">$75.00</span>
+                                    <p class="mb-4 text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <button class="btn bg-red text-white fo-20 py-1 px-3 mb-5 mb-md-0">order now</button>
 
                                 </div>
+
                             </div>
                         </div>
-                        <div class="down-card-today">
-                            <div class="down-items-today">
-                                <div class="down-item-today-img">
-                                    <div class="img-today">
-                                        <img src="img/today-02.png" alt="Stuffed Pizza">
-                                    </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+
+                        <div class="bg-white rounded-4 shadow today my-2 me-md-2 py-2">
+
+                            <div class="d-flex flex-wrap align-items-center justify-content-center my-2">
+
+                                <div class="col-12 col-md-6">
+                                    <img src="img/today-03.png" alt="Vanilla Milkshake" class="w-100">
                                 </div>
-                                <div class="down-item-today-text">
-                                    <h6>Stuffed Pizza</h6>
-                                    <span>$75.00</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <button class="btn-today">order now</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="down-card-today">
-                            <div class="down-items-today">
-                                <div class="down-item-today-img">
-                                    <div class="img-today">
-                                        <img src="img/today-03.png" alt="Vanilla Milkshake">
-                                    </div>
-                                </div>
-                                <div class="down-item-today-text">
+        
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start ps-3 pe-md-5 mt-4">
+
                                     <h6>Vanilla Milkshake</h6>
-                                    <span>$10.99</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <button class="btn-today">order now</button>
+                                    <span class="my-3">$10.99</span>
+                                    <p class="mb-4 text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <button class="btn bg-red text-white fo-20 py-1 px-3 mb-5 mb-md-0">order now</button>
+
                                 </div>
+
                             </div>
                         </div>
-                        <div class="down-card-today">
-                            <div class="down-items-today">
-                                <div class="down-item-today-img">
-                                    <div class="img-today">
-                                        <img src="img/today-04.png" alt="Italiano Pizza">
-                                    </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+
+                        <div class="bg-white rounded-4 shadow today my-2 ms-md-2 py-2">
+
+                            <div class="d-flex flex-wrap align-items-center justify-content-center my-2">
+                                
+                                <div class="col-12 col-md-6">
+                                    <img src="img/today-04.png" alt="Italiano Pizza" class="w-100">
                                 </div>
-                                <div class="down-item-today-text">
+                                
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start ps-3 pe-md-5 mt-4">
+
                                     <h6>Italiano Pizza</h6>
-                                    <span>$45.45</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <button class="btn-today">order now</button>
+                                    <span class="my-3">$45.45</span>
+                                    <p class="mb-4 text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <button class="btn bg-red text-white fo-20 py-1 px-3 mb-5 mb-md-0">order now</button>
+
                                 </div>
+
                             </div>
                         </div>
-                        <div class="down-card-today">
-                            <div class="down-items-today">
-                                <div class="down-item-today-img">
-                                    <div class="img-today">
-                                        <img src="img/today-05.png" alt="Build Your Own Burger">
-                                    </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+
+                        <div class="bg-white rounded-4 shadow today my-2 me-md-2 py-2">
+
+                            <div class="d-flex flex-wrap align-items-center justify-content-center my-2">
+                                
+                                <div class="col-12 col-md-6">
+                                    <img src="img/today-05.png" alt="Build Your Own Burger" class="w-100">
                                 </div>
-                                <div class="down-item-today-text">
+                                
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start ps-3 pe-md-5 mt-4">
+
                                     <h6>Build Your Own Burger</h6>
-                                    <span>$9.99</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <button class="btn-today">order now</button>
+                                    <span class="my-3">$9.99</span>
+                                    <p class="mb-4 text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <button class="btn bg-red text-white fo-20 py-1 px-3 mb-5 mb-md-0">order now</button>
+
                                 </div>
+
                             </div>
                         </div>
-                        <div class="down-card-today">
-                            <div class="down-items-today">
-                                <div class="down-item-today-img">
-                                    <div class="img-today">
-                                        <img src="img/today-06.png" alt="Lemonade Ice Blue">
-                                    </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+
+                        <div class="bg-white rounded-4 shadow today my-2 ms-md-2 py-2">
+
+                            <div class="d-flex flex-wrap align-items-center justify-content-center my-2">
+                                
+                                <div class="col-12 col-md-6">
+                                    <img src="img/today-06.png" alt="Lemonade Ice Blue" class="w-100">
                                 </div>
-                                <div class="down-item-today-text">
+                                
+                                <div class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start ps-3 pe-md-5 mt-4">
+
                                     <h6>Lemonade Ice Blue</h6>
-                                    <span>$3.00</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <button class="btn-today">order now</button>
+                                    <span class="my-3">$3.00</span>
+                                    <p class="mb-4 text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <button class="btn bg-red text-white fo-20 py-1 px-3 mb-5 mb-md-0">order now</button>
+
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -325,44 +496,56 @@
 
         <!-- start Place -->
 
-        <section class="bac-Place">
-            <div class="place">
-                <p>Popular Dishes</p>
-                <h3>Place an order for your
-                    preferred food</h3>
-                <button class="btn">order now</button>
+        <section class="bg-Place d-flex flex-column align-items-center justify-content-center text-center">
+            <div class="text-white container">
+                <p class="text-red fo-italic fo-40 fo-sm">
+                    Popular Dishes
+                </p>
+                <h3 class="fo-110 mb-5 fo-sm-head pe-5 ps-sm-5 pe-md-0 ps-md-0">
+                    Place an order for your
+                    preferred food
+                </h3>
+                <button class="btn bg-red text-white fo-20 px-sm-5 py-sm-2">order now</button>
             </div>
         </section>
 
         <!-- start Feedback -->
 
-        <section class="bac-Feedback">
-            <div class="contener">
-                <div class="top-feedback">
-                    <h5>Testimonials</h5>
-                    <h3>Customers Feedback</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <section class="bg-Feedback pt-pb">
+
+            <div class="container">
+
+                <div class="text-center">
+                    <h5 class="fo-italic text-red fo-30">Testimonials</h5>
+                    <h3 class="my-5 fo-50">Customers Feedback</h3>
+                    <p class="fo-thin fo-15 text-black-50 fw-light mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div class="down-feedback">
-                    <div class="down-card-feedback">
-                        <div class="down-card-text-feedback">
-                            <p>
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit.
-                                 Ut elit tellus, luctus nec ullamcorper mattis,
-                                  pulvinar dapibus leo.
-                            </p>
-                        </div>
-                        <div class="down-card-imgs-feedback">
-                            <div class="down-card-img-feedback">
-                                <img src="img/client-01.jpg" alt="KELLY BROOK">
+
+                <!-- start feedback cards -->
+
+                <div class="d-flex flex-wrap feedback-cards">
+                    <div class="col-12 col-lg-6 mb-4">
+                        <div class="bg-white rounded-3 d-flex flex-column me-lg-3 py-3 px-5">
+                            <div class="text-black-50 fo-18 fo-thin text-center fw-light">
+                                <p>
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
+                                     Ut elit tellus, luctus nec ullamcorper mattis,
+                                      pulvinar dapibus leo.
+                                </p>
                             </div>
-                            <P>KELLY BROOK</P>
+                            <div class="d-flex align-items-center justify-content-center">
+                                
+                                <img src="./img/client-01.jpg" alt="KELLY BROOK">
+                                <P class="text-red fo-20 ps-3">KELLY BROOK</P>
+
+                            </div>
                         </div>
 
                     </div>
-                    <div class="down-card-feedback">
-                        <div class="down-card-text-feedback">
+                    <div class="col-12 col-lg-6 mb-4">
+                       <div class="bg-white rounded-3 d-flex flex-column ms-lg-3 py-3 px-5">
+                        <div class="text-black-50 fo-18 fo-thin text-center fw-light">
                             <p>
                                 Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit.
@@ -370,69 +553,77 @@
                                   pulvinar dapibus leo.
                             </p>
                         </div>
-                        <div class="down-card-imgs-feedback">
-                            <div class="down-card-img-feedback">
-                                <img src="img/client-02.jpg" alt="THOMAS MULLER">
+                        <div class="d-flex align-items-center justify-content-center">
+                            
+                            <img src="./img/client-02.jpg" alt="THOMAS MULLER">
+                            <P class="text-red fo-20 ps-3 fw-light">THOMAS MULLER</P>
+
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                        <div class="bg-white rounded-3 d-flex flex-column me-lg-3 py-3 px-5">
+                            <div class="text-black-50 fo-18 fo-thin text-center fw-light">
+                                <p>
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
+                                     Ut elit tellus, luctus nec ullamcorper mattis,
+                                      pulvinar dapibus leo.
+                                </p>
                             </div>
-                            <P>THOMAS MULLER</P>
+                            <div class="d-flex align-items-center justify-content-center">
+                                
+                                <img src="./img/client-03.jpg" alt="BREAT LEU">
+                                <P class="text-red fo-20 ps-3 fw-light">BREAT LEU</P>
+
+                            </div>
                         </div>
                     </div>
-                    <div class="down-card-feedback">
-                        <div class="down-card-text-feedback">
-                            <p>
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit.
-                                 Ut elit tellus, luctus nec ullamcorper mattis,
-                                  pulvinar dapibus leo.
-                            </p>
-                        </div>
-                        <div class="down-card-imgs-feedback">
-                            <div class="down-card-img-feedback">
-                                <img src="img/client-03.jpg" alt="BREAT LEU">
+                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                        <div class="bg-white rounded-3 d-flex flex-column ms-lg-3 py-3 px-5">
+                            <div class="text-black-50 fo-18 fo-thin text-center fw-light">
+                                <p>
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
+                                     Ut elit tellus, luctus nec ullamcorper mattis,
+                                      pulvinar dapibus leo.
+                                </p>
                             </div>
-                            <P>BREAT LEU</P>
-                        </div>
-                    </div>
-                    <div class="down-card-feedback">
-                        <div class="down-card-text-feedback">
-                            <p>
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit.
-                                 Ut elit tellus, luctus nec ullamcorper mattis,
-                                  pulvinar dapibus leo.
-                            </p>
-                        </div>
-                        <div class="down-card-imgs-feedback">
-                            <div class="down-card-img-feedback">
-                                <img src="img/client-04.jpg" alt="NANCY LOPEZ">
+                            <div class="d-flex align-items-center justify-content-center">
+                                
+                                <img src="./img/client-04.jpg" alt="NANCY LOPEZ">
+                                <P class="text-red fo-20 ps-3 fw-light">NANCY LOPEZ</P>
+
                             </div>
-                            <P>NANCY LOPEZ</P>
                         </div>
                     </div>
                 </div>
+
             </div>
+
         </section>
 
         <!-- start Free -->
 
         <section>
-            <div class="contener">
-                <div class="spc-Free">
-                    <div class="left-Free">
-                        <h5>Free Delivery</h5>
-                        <h3>To get free delivery,
+            <div class="container pt-pb">
+                <div class="d-flex flex-wrap my-5 align-items-center pe-md-5">
+                    <div class="col-12 col-md-10 col-lg-5">
+                        <h5 class="text-red fo-italic fo-30 mb-4">Free Delivery</h5>
+                        <h3 class="fo-60 text-black">
+                            To get free delivery,
                             download our app and
                             order online.
                         </h3>
-                        <p>
+                        <p class="fo-thin fo-15 fw-light text-black-50 ">
                             With a 10-year track record, we are the country's number one fast food store.
                              We provide some of the greatest burgers and pizza in the country.
                         </p>
 
                     </div>
-                    <div class="right-Free">
+                    <div class="col-12 col-lg-7 motor-an">
                         <div>
-                            <img src="img/app-bg.png" alt="motor">
+                            <img src="./img/app-bg.png" alt="motor">
                         </div>
                     </div>
                 </div>
@@ -441,14 +632,14 @@
         
         <!-- start book -->
 
-        <section class="bac-book">
-            <div class="contener">
-                <div class="info-book">
-                    <div class="text-book">
+        <section class="bg-red">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between py-4 book">
+                    <div class="text-white fo-30 pt-3">
                         <p>BOOK YOUR TABLE FOR THE BEST CHOW RIGHT NOW!</p>
                     </div>
                     <div >
-                        <button class="btn-book">DOWNLOD APP</button>
+                        <button class="btn bg-yellow text-white py-2 px-4 fo-20 btn-hover-whiht"> DOWNLOD APP</button>
                     </div>
                 </div>
             </div>
@@ -460,86 +651,95 @@
 
    <footer>
     
-    <section class="spac-footer">
-        <div class="contener">
-            <div class="items-footer">
-                <div class="item-footer">
-                    <h5>Contact</h5>
-                    <p>
+    <section class="pt-pb border-bottom">
+        <div class="container">
+            <div class="d-flex flex-wrap">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h5 class="fo-20 mb-3">Contact</h5>
+                    <p class="fo-thin fo-15 text-black-50 fw-light pe-5">
                         Lorem ipsum dolor sit amet, consectet adipis cing elit. Curabitur venenatis.
                     </p>
-                    <i class="fa-sharp fa-solid fa-location-dot icon-contact"></i>
-                    <h6>Broadway, New York, NY 10036 </h6>
-                    <i class="fa-solid fa-phone icon-contact"></i>
-                    <h6> phone:<span class="item-footer-span">+12 34 567 891 23</span></h6>
-                    <i class="fa-solid fa-envelope icon-contact"></i>
-                    <h6> email: <span>info@Burger.com</span></h6>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-location-dot icon-contact"></i>
+                        <h6 class="d-inline ps-2">Broadway, New York, NY 10036 </h6>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-phone icon-contact"></i>
+                        <h6 class="d-inline ps-2"> phone:<span class="item-footer-span">+12 34 567 891 23</span></h6>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope icon-contact"></i>
+                        <h6 class="d-inline ps-2"> email: <span>info@Burger.com</span></h6>
+                    </div>
+                
                 </div>
-                <div class="item-footer">
-                    <h5>Working</h5>
-                    <ul  class="days-footer">
-                        <li>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h5 class="fo-20 mb-3 mt-5 mt-sm-0">Working</h5>
+                    <ul  class="text-black-50 fo-thin fo-15 fw-light list-unstyled">
+                        <li class="mb-2">
                             Monday 9:00 - 24:00
                         </li>
-                        <li>
+                        <li class="mb-2">
                             Tuesday 9:00 - 24:00
                         </li>
-                        <li>
+                        <li class="mb-2">
                             Wednesday 9:00 - 24:00 
                         </li>
-                        <li>
+                        <li class="mb-2">
                             Thursday 9:00 - 24:00
                         </li>
-                        <li>
+                        <li class="mb-2">
                             Friday 9:00 - 02:00
                         </li>
-                        <li>
+                        <li class="mb-2">
                             Saturday 9:00 - 02:00
                         </li>
-                        <li>
+                        <li class="mb-2">
                             Sunday CLOSED
                         </li>
                     </ul>
                 </div>
-                <div class="item-footer">
-                    <h5>Help</h5>
-                    <ul class="help-footer">
-                        <li><a href="">Returns & Exchanges</a></li>
-                        <li><a href="">Customer Service</a></li>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Terms of Use</a></li>
-                        <li><a href="">FAQ</a></li>
+                <div class="col-12 col-sm-6 col-lg-3 ">
+                    <h5 class="fo-20 mb-3 mt-5 mt-sm-0">Help</h5>
+                    <ul class="list-unstyled fo-thin fw-light footer-hover">
+                        <li class="mb-2"><a href="#" class="text-black text-decoration-none">Returns & Exchanges</a></li>
+                        <li class="mb-2"><a href="#" class="text-black text-decoration-none">Customer Service</a></li>
+                        <li class="mb-2"><a href="#" class="text-black text-decoration-none">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="#" class="text-black text-decoration-none">Terms of Use</a></li>
+                        <li class="mb-2"><a href="#" class="text-black text-decoration-none">FAQ</a></li>
 
                     </ul>
                 </div>
-                <div class="item-footer">
-                    <h5>quick access</h5>
-                    <ul class="access-footer">
-                        <li> <a href=""> About Us </a></li>
-                        <li> <a href=""> Blog </a></li>
-                        <li> <a href=""> Cart </a></li>
-                        <li> <a href=""> Checkout</a></li>
-                        <li> <a href=""> Contact</a></li>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h5 class="fo-20 mb-3 mt-5 mt-sm-0">quick access</h5>
+                    <ul class="list-unstyled fo-thin fw-light footer-hover">
+                        <li class="mb-2"> <a href="#" class="text-decoration-none text-black"> About Us </a></li>
+                        <li class="mb-2"> <a href="#" class="text-decoration-none text-black"> Blog </a></li>
+                        <li class="mb-2"> <a href="#" class="text-decoration-none text-black"> Cart </a></li>
+                        <li class="mb-2"> <a href="#" class="text-decoration-none text-black"> Checkout</a></li>
+                        <li class="mb-2"> <a href="#" class="text-decoration-none text-black"> Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- icons -->
+    
     <section >
-        <div class="contener">
-            <div class="down-footer">
-                <div>
-                    <ul class="down-lift-footer">
+        <div class="container ">
+            <div class="d-flex flex-wrap align-items-center justify-content-center py-4">
+                <div class="col-12 col-md-6 col-xl-8 ">
+                    <ul class="footer d-flex">
                         <!-- <li><a href=""><i class="fa-brands fa-facebook"></i></a></li> -->
-                        <li><a href=""><i class="fa-brands fa-twitter icon-down-lift-footer"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram icon-down-lift-footer"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin icon-down-lift-footer"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-telegram icon-down-lift-footer"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter icon-footer"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram icon-footer"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin icon-footer"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-telegram icon-footer"></i></a></li>
                     </ul>
                 </div>
-                <div>
-                    <p>2022. Burgera by ThemeOY. All rights reserved.</p>
+                <div class="col-12 col-md-6 col-xl-4 ">
+                    <p class="fo-thin fo-12 fw-light text-black-50">2022. Burgera by ThemeOY. All rights reserved.</p>
                 </div>
             </div>
         </div>

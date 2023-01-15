@@ -1,0 +1,340 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive !important;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* pading top and buttom */
+.pt-pb{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+/* about button */
+
+.btn:hover{
+    background-color: #ffb91a !important;
+}
+
+.btn-hover-whiht:hover{
+    background-color: #fff !important;
+    color: black !important;
+}
+
+/* background color and text color */
+
+.bg-yellow{
+    background-color: #ffb91a !important;
+}
+
+.bg-red{
+    background-color: #a5141a !important;
+}
+
+.text-red{
+    color: #a5141a !important;
+}
+
+.text-yellow{
+    color: #ffb91a !important;
+}
+
+/* about font and fond size */
+
+.fo-italic{
+    font-family: 'Pacifico', cursive !important; 
+}
+
+.fo-thin{
+    font-family: Epilogue,sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.fo-20{
+    font-size: 20px !important;
+}
+
+.fo-30{
+    font-size: 30px !important;
+}
+
+.fo-40{
+    font-size: 40px !important;
+}
+
+.fo-50{
+    font-size: 50px !important;
+}
+
+.fo-13{
+    font-size: 13px !important;
+}
+
+.fo-15{
+    font-size: 15px !important;
+}
+
+.fo-110{
+    font-size: 110px;
+}
+
+.fo-18{
+    font-size: 18px;
+}
+
+.fo-60{
+    font-size: 60px;
+}
+
+ /* about rounded */
+
+.rounded-30{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* For better reactivity */
+
+@media (min-width: 768px){
+.pe-md-6 {
+  padding-right: 5rem !important;
+}
+}
+
+@media (min-width: 768px){
+    .pe-md-7 {
+      padding-right: 7rem !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 772px){
+.fo-sm-head {
+  font-size: 40px !important;
+  line-height: 36px;
+  padding: 15px 0;}
+}
+
+@media (min-width: 320px) and (max-width: 772px){
+.fo-sm {
+  font-size: 20px !important;}
+}
+
+
+/* start head......... */
+
+.bg-head{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.nav-li:hover{
+    color: #ffb91a !important;
+}
+.nav-dropdown-item-hover:hover{
+    background-color: #ffb91a !important;
+    color: #fff !important;
+}
+.bg-head p{
+    font-size: 35px !important;
+}
+.bg-head h1{
+    font-size: 75px !important;
+}
+
+@media(max-width: 410px){
+    .bg-head p {
+      font-size: 35px !important;}
+    .bg-head h1{
+        font-size: 60px !important;
+    }
+}
+
+/* start menu ........*/
+.menu-border{
+    border: 1px solid transparent;
+}
+.menu-border:hover {
+    border-color: #ffb91a !important;
+}
+
+/* start food....... */
+
+.bg-food{
+    background-image: url('../img/special-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-food-left{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/special-01.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-food-right-top{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/special-02.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bg-food-right-down{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/special-03.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+/* start dinner........ */
+
+.bg-dinner{
+    background-image:url('../img/delivery.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+}
+
+
+/* start price............. */
+
+@media(max-width: 380px){
+    .price h3 {
+      font-size: 35px !important;}
+    .price h5{
+        font-size: 23px !important;
+    }
+    .price span{
+        font-size: 23px !important;
+    }
+    .price p{
+        font-size: 10px !important;
+    }
+}
+
+/* start today......... */
+
+.bg-today{
+    background-color: #f8f8f8;
+}
+
+.bg-today h3{
+    color: #383838;;
+    letter-spacing: 1.5px;
+}
+
+@media(max-width: 480px){
+
+    .bg-today h3 {
+      font-size: 35px !important;
+    }
+
+    .bg-today p{
+        font-size: 13px !important;
+    }
+}
+
+.today{
+    border: 1px solid transparent;
+}
+.today:hover{
+    border-color: #ffb91a;
+}
+
+.down-items-today{
+    display: flex;
+}
+
+.today h6{
+    color: #383838;;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.today span{
+    display: block;
+    color: #a5141a;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.today p{
+    color: #6b6b6b;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    font-family: Epilogue,sans-serif;
+}
+
+/* start Place............. */
+
+.bg-Place{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/fav-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+
+/* start Feedback.......... */
+
+.bg-Feedback{
+    background-image: url('../img/special-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.feedback-cards img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+/* start Free........ */
+
+.motor-an{
+    position: relative;
+    animation: motor 3s infinite;
+}
+
+@keyframes motor {
+    from{left:0px}
+    to{left:12rem}
+}
+
+/* start book.......... */
+
+@media(max-width: 770px){
+    .book p {
+      font-size: 18px !important;}
+    .book button{
+        font-size: 14px !important;}
+    
+}
+
+/* start footer................. */
+
+.footer-hover a:hover{
+    color: #a5141a !important;
+}
+
+.footer li{
+    list-style: none;
+    margin-right:1rem;
+    border-radius: 50%;
+    background-color: #fdfdfd;
+    border: 1px solid #e7e7e7;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-footer{
+    color: #a5141a;
+}
